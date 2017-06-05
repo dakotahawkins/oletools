@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1ac331dc-f453-4cf0-ba08-3e9219973443}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>setup.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="INSTALL.txt" />
+    <Content Include="oletools\doc\Contribute.html" />
+    <Content Include="oletools\doc\Home.html" />
+    <Content Include="oletools\doc\Install.html" />
+    <Content Include="oletools\doc\License.html" />
+    <Content Include="oletools\doc\mraptor.html" />
+    <Content Include="oletools\doc\mraptor1.png" />
+    <Content Include="oletools\doc\olebrowse.html" />
+    <Content Include="oletools\doc\olebrowse1_menu.png" />
+    <Content Include="oletools\doc\olebrowse2_stream.png" />
+    <Content Include="oletools\doc\olebrowse3_hexview.png" />
+    <Content Include="oletools\doc\oledir.html" />
+    <Content Include="oletools\doc\oledir.png" />
+    <Content Include="oletools\doc\oleid.html" />
+    <Content Include="oletools\doc\olemap.html" />
+    <Content Include="oletools\doc\olemap1.png" />
+    <Content Include="oletools\doc\olemap2.png" />
+    <Content Include="oletools\doc\olemeta.html" />
+    <Content Include="oletools\doc\olemeta1.png" />
+    <Content Include="oletools\doc\oleobj.html" />
+    <Content Include="oletools\doc\oletimes.html" />
+    <Content Include="oletools\doc\olevba.html" />
+    <Content Include="oletools\doc\pyxswf.html" />
+    <Content Include="oletools\doc\rtfobj.html" />
+    <Content Include="oletools\LICENSE.txt" />
+    <Content Include="oletools\README.html" />
+    <Content Include="oletools\thirdparty\colorclass\LICENSE.txt" />
+    <Content Include="oletools\thirdparty\DridexUrlDecoder\LICENSE.txt" />
+    <Content Include="oletools\thirdparty\easygui\LICENSE.txt" />
+    <Content Include="oletools\thirdparty\olefile\CONTRIBUTORS.txt" />
+    <Content Include="oletools\thirdparty\olefile\doc\API.html" />
+    <Content Include="oletools\thirdparty\olefile\doc\Contribute.html" />
+    <Content Include="oletools\thirdparty\olefile\doc\Home.html" />
+    <Content Include="oletools\thirdparty\olefile\doc\Install.html" />
+    <Content Include="oletools\thirdparty\olefile\doc\License.html" />
+    <Content Include="oletools\thirdparty\olefile\doc\OLE_Overview.html" />
+    <Content Include="oletools\thirdparty\olefile\doc\OLE_VBA_sample.png" />
+    <Content Include="oletools\thirdparty\olefile\LICENSE.txt" />
+    <Content Include="oletools\thirdparty\olefile\olefile.html" />
+    <Content Include="oletools\thirdparty\olefile\README.html" />
+    <Content Include="oletools\thirdparty\xglob\LICENSE.txt" />
+    <Content Include="oletools\thirdparty\xxxswf\LICENSE.txt" />
+    <Content Include="oletools\thirdparty\zipfile27\LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="oletools\exportvba.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="oletools\ezhexviewer.py" />
+    <Compile Include="oletools\mraptor.py" />
+    <Compile Include="oletools\mraptor3.py" />
+    <Compile Include="oletools\mraptor_milter.py" />
+    <Compile Include="oletools\olebrowse.py" />
+    <Compile Include="oletools\oledir.py" />
+    <Compile Include="oletools\oleid.py" />
+    <Compile Include="oletools\olemap.py" />
+    <Compile Include="oletools\olemeta.py" />
+    <Compile Include="oletools\oleobj.py" />
+    <Compile Include="oletools\oletimes.py" />
+    <Compile Include="oletools\olevba.py" />
+    <Compile Include="oletools\olevba3.py" />
+    <Compile Include="oletools\ppt_parser.py" />
+    <Compile Include="oletools\pyxswf.py" />
+    <Compile Include="oletools\rtfobj.py" />
+    <Compile Include="oletools\thirdparty\colorclass\codes.py" />
+    <Compile Include="oletools\thirdparty\colorclass\color.py" />
+    <Compile Include="oletools\thirdparty\colorclass\core.py" />
+    <Compile Include="oletools\thirdparty\colorclass\parse.py" />
+    <Compile Include="oletools\thirdparty\colorclass\search.py" />
+    <Compile Include="oletools\thirdparty\colorclass\toggles.py" />
+    <Compile Include="oletools\thirdparty\colorclass\windows.py" />
+    <Compile Include="oletools\thirdparty\colorclass\__init__.py" />
+    <Compile Include="oletools\thirdparty\colorclass\__main__.py" />
+    <Compile Include="oletools\thirdparty\DridexUrlDecoder\DridexUrlDecoder.py" />
+    <Compile Include="oletools\thirdparty\DridexUrlDecoder\__init__.py" />
+    <Compile Include="oletools\thirdparty\easygui\easygui.py" />
+    <Compile Include="oletools\thirdparty\easygui\__init__.py" />
+    <Compile Include="oletools\thirdparty\olefile\olefile.py" />
+    <Compile Include="oletools\thirdparty\olefile\__init__.py" />
+    <Compile Include="oletools\thirdparty\prettytable\prettytable.py" />
+    <Compile Include="oletools\thirdparty\prettytable\__init__.py" />
+    <Compile Include="oletools\thirdparty\pyparsing\pyparsing.py" />
+    <Compile Include="oletools\thirdparty\pyparsing\__init__.py" />
+    <Compile Include="oletools\thirdparty\tablestream\tablestream.py" />
+    <Compile Include="oletools\thirdparty\tablestream\__init__.py" />
+    <Compile Include="oletools\thirdparty\xglob\xglob.py" />
+    <Compile Include="oletools\thirdparty\xglob\__init__.py" />
+    <Compile Include="oletools\thirdparty\xxxswf\xxxswf.py" />
+    <Compile Include="oletools\thirdparty\xxxswf\__init__.py" />
+    <Compile Include="oletools\thirdparty\zipfile27\__init__.py" />
+    <Compile Include="oletools\thirdparty\__init__.py" />
+    <Compile Include="oletools\__init__.py" />
+    <Compile Include="setup.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="oletools" />
+    <Folder Include="oletools\doc" />
+    <Folder Include="oletools\thirdparty" />
+    <Folder Include="oletools\thirdparty\colorclass" />
+    <Folder Include="oletools\thirdparty\DridexUrlDecoder" />
+    <Folder Include="oletools\thirdparty\easygui" />
+    <Folder Include="oletools\thirdparty\olefile" />
+    <Folder Include="oletools\thirdparty\olefile\doc" />
+    <Folder Include="oletools\thirdparty\prettytable" />
+    <Folder Include="oletools\thirdparty\pyparsing" />
+    <Folder Include="oletools\thirdparty\tablestream" />
+    <Folder Include="oletools\thirdparty\xglob" />
+    <Folder Include="oletools\thirdparty\xxxswf" />
+    <Folder Include="oletools\thirdparty\zipfile27" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

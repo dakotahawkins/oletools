@@ -98,3 +98,5 @@ ENV/
 .ropeproject
 
 /temp/
+
+.vs/
